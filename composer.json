@@ -1,0 +1,21 @@
+{
+    "name": "pulkitjalan/paypal-laravel",
+    "description": "A Laravel 5 wrapper for PayPal",
+    "homepage": "https://github.com/pulkitjalan/paypal-laravel",
+    "keywords": ["paypal", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pulkit Jalan"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "paypal/rest-api-sdk-php": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PulkitJalan\\PayPal\\": "src"
+        }
+    }
+}
