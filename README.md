@@ -15,10 +15,12 @@ This package wraps [paypal/rest-api-sdk-php](https://github.com/paypal/PayPal-PH
 Require the package
 
 ```sh
-composer require pulkitjalan/paypal-laravel "1.*"
+composer require pulkitjalan/paypal-laravel
 ```
 
-Add the following to the `providers` array in your `config/app.php`
+Laravel 5.5 uses Package Auto-Discovery, so you don't need to manually add the ServiceProvider.
+
+If you don't use auto-discovery, add the following to the `providers` array in your `config/app.php`
 
 ```php
 PulkitJalan\PayPal\PayPalServiceProvider::class,
